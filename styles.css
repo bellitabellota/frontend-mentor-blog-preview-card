@@ -11,7 +11,7 @@
   background-color: rgb(244,208, 78);
 }
 
-h1, p {
+ p {
   font-family: "Figtree";
   line-height: 1.5;
   margin: 0;
@@ -51,6 +51,17 @@ h1, p {
 h1 {
   font-size: var(--font-size-l);
   font-weight: 800;
+}
+
+a {
+  color: hsl(0, 0%, 7%);
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+a:hover {
+  color: rgb(244,208, 78); /**/
 }
 
 .description {
